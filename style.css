@@ -1,0 +1,70 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+/* Same style of font on all of these elements */
+main, p, footer, ul{
+  font-family: 'Alumni Sans Pinstripe', sans-serif;
+font-size: 30px;
+  margin: 0px;
+  font-weight: bold;
+  text-align: center
+}
+
+/* Header style */
+
+header {
+  margin: 0px;
+  border-block: solid;
+  border-block-color: hotpink;
+  background: palegreen;
+    color: hotpink;
+  text-align: center;
+}
+
+/* Background photo and margin */
+main{
+  margin: 10px;
+   background-image: url("https://img.freepik.com/premium-vector/holographic-seamless-pattern-with-animal-print-leopard-skin_573550-854.jpg?w=2000")
+}
+
+/* page divider and a little pizzaz*/
+hr {
+  width: 500px;
+	height: 16px;
+	border: none;
+  margin: auto;
+	background-image: url("https://cutekawaiiresources.files.wordpress.com/2014/08/tumblr_lmzoe11hn11qg9aa7.gif?w=217&zoom=2");
+}
+
+/* Headers in same style*/
+h1, h2, h3{
+  font-family: 'Silkscreen', cursive;
+  margin: 0px;
+  color: hotpink;
+  text-align: center;
+}
+/* Seperate Sizes */
+h1{
+  font-size: 60px;
+}
+
+h2{
+  font-size: 40px;
+}
+h3{
+ font-size: 30px; 
+}
+/* Footer */
+footer{
+  margin: 0px;
+  background: hotpink;
+  text-align: center;
+  color: palegreen;
+}
+
+/* Github logo transparancy */
+img{
+
+  background: transparent;
+}

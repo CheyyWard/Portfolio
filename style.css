@@ -3,7 +3,7 @@ html, body {
   width: 100%;
 }
 /* Same style of font on all of these elements */
-main, p, footer, ul{
+main, p, footer, ul, ol{
   font-family: 'Alumni Sans Pinstripe', sans-serif;
 font-size: 30px;
   margin: 0px;
@@ -33,7 +33,7 @@ hr {
   width: 500px;
 	height: 16px;
 	border: none;
-  margin: auto;
+  padding-right: 100px;
 	background-image: url("https://cutekawaiiresources.files.wordpress.com/2014/08/tumblr_lmzoe11hn11qg9aa7.gif?w=217&zoom=2");
 }
 
@@ -66,5 +66,24 @@ footer{
 /* Github logo transparancy */
 img{
 
-  background: transparent;
+  padding-left: 75px;
+  padding-top: 35px;
+}
+
+/*Links*/
+
+a:link{
+  color: purple;
+}
+
+a:hover{
+  color: violet;
+}
+
+a:visited{
+  color: palegreen;
+}
+
+a:active{
+  color: hotpink;
 }
